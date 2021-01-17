@@ -1,0 +1,25 @@
+body{
+	background-image:url("háttér0000.jpg");
+	background-size: cover;
+}
+h1{
+	text-align: center;
+	padding: 300px 0;
+}
+.nő{
+	border: 1px solid magenta;
+	border-radius: 10px 10px;
+	background-color: lightpink;
+}
+.férfi{
+	border: 1px solid blue;
+	border-radius: 10px 10px;
+	background-color: lightblue;
+}
+#nő{
+	text-align: center;
+}
+#férfi{
+	text-align: center;
+}
+

@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background-color: #B4A6E9;
+    color: #730D0D;
+    font-family: cursive;
+    font-size: 1.2em;
+}
+
+.container nav{
+    height: 50px;
+    background-color: #6B97F6;
+}
+
+nav button{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.oldal{
+    min-height: calc(100vh - 100px);
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: #6B97F6;
+}
+
+#profil_oldal{
+    background-color: #A6D4E9;
+}
+
+#feladat_oldal{
+    background-color: #FCFFC0;
+    display: none;
+}
+
+#profil_pics{
+    width: 200px;
+    height: 300px;
+    margin-left: calc(50% - 100px);
+}
+
+#feladat_oldal button{
+    max-width: 500px;
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#feladat_oldal button:hover{
+    background-color: orange;
+    font-weight: bold;
+}

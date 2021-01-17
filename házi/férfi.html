@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>One day as an idol trainee</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+  </head>
+  <body>
+    
+    <div class="container">
+        <nav class="mynavbar">
+            <button id="character_btn" onclick="switch_to_profil()">Én</button>
+            <button id="feladat_btn" onclick="switch_to_feladat()">Feladataim</button>
+            <button onclick="lvl_up()">Debutálás</button>
+        </nav>
+
+        <div id="profil_oldal" class="oldal">
+            <div class="row">
+                <div class="col-md-4 pics_holder">
+                    <img src="pics/profil_lvl0.jpg" id="profil_pics">
+                </div>
+                <div class="col-md-8">
+                    
+                    <h1>Yang Jeongin</h1>
+                    <p id="description"></p>
+                    <ul>
+                        <li>Mentális egészségem: <b id="profil_life"></b> </li>
+                        <li>Singing skills: <b id="profil_sing"></b> <button onclick="fejlesztés_sing()" class="addButtons">+</button> </li>
+                        <li>Dancing skills: <b id="profil_dance"></b> <button onclick="fejlesztés_dance()" class="addButtons">+</button></li>
+                        <li>Tehetség: <b id="profil_talent"></b> <button onclick="fejlesztés_talent()" class="addButtons">+</button></li>
+                        <li>Reputáció: <b id="profil_reputation"></b> (debutálás: <b id="next_lvl"></b>)</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="feladat_oldal" class="oldal">
+            <div id="story"></div>
+            <button onclick="táncóra()">Gyakorlom a tánctudásom a "csapattársaimmal"!</button>
+            <button onclick="énekóra()">Énekórán veszek részt!</button>
+            <button onclick="pihenés()">Egy kicsit kimegyek pihenni a barátaimmal!</button>
+        </div>
+
+        <div class="footer"></div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="spa.js"></script>
+    <script src="aprogram2.js"></script>
+  </body>
+</html>
